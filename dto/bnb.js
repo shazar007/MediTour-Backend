@@ -1,0 +1,50 @@
+class bnbDTO {
+  constructor(bnb) {
+    this._id = bnb._id;
+    this.category = bnb.category;
+    this.propertyName = bnb.propertyName;
+    this.starRating = bnb.starRating;
+    this.customName = bnb.customName;
+    this.contactNumber = bnb.contactNumber;
+    this.alternativeContactNo = bnb.alternativeContactNo;
+    this.postCode = bnb.postCode;
+    this.location=bnb.location;
+    this.rooms = bnb.rooms;
+    this.roomType=bnb.roomType;
+    this.ntn=bnb.ntn;
+    this.accountTitle=bnb.accountTitle
+    this.roomName=bnb.roomName;
+    this.parkingAvailability = bnb.parkingAvailability;
+    this.bedKinds=bnb.bedKinds;
+    this.noOfBeds=bnb.noOfBeds;
+    this.noOfGuestsStay=bnb.noOfGuestsStay;
+    this.roomSize=bnb.roomSize;
+    this.breakfast=bnb.breakfast;
+    this.pricePerNight=bnb.pricePerNight;
+    this.roomImages=bnb.roomImages;
+    this.priceOfParking = bnb.priceOfParking;
+    this.language = bnb.language;
+    this.facilities = bnb.facilities;
+    this.propertyDistance=bnb.propertyDistance;
+    this.roomDescription=bnb.roomDescription;
+    this.propertySurroundings=bnb.propertySurroundings;
+    this.extraBedAvailability = bnb.extraBedAvailability;
+    this.noOfExtraBeds = bnb.noOfExtraBeds;
+    this.guestsInExtraBeds = bnb.guestsInExtraBeds;
+    this.amenities = bnb.amenities;
+    this.propertyphotos = bnb.propertyphotos;
+    this.advanceCancelfreeofCharge = bnb.advanceCancelfreeofCharge;
+    this.guestPayFull = bnb.guestPayFull;
+    this.accidentalBookingPolicy = bnb.accidentalBookingPolicy;
+    this.policies=bnb.policies;
+    this.checkInFrom = bnb.checkInFrom;
+    this.checkInTo = bnb.checkInTo;
+    this.checkOutFrom = bnb.checkOutFrom;
+    this.checkOutTo = bnb.checkOutTo;
+    this.pets = bnb.pets;
+    this.minimumStay =bnb.minimumStay;
+    this.stayOfPets=bnb.stayOfPets;
+    this.chargesOfPets = bnb.chargesOfPets;
+  }
+}
+module.exports = bnbDTO;

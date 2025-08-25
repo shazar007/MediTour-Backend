@@ -1,0 +1,56 @@
+class doctorDTO {
+  constructor(doc) {
+    this._id = doc._id;
+    this.vendorId = doc.vendorId;
+    this.doctorKind = doc.doctorKind;
+    this.email = doc.email;
+    this.phoneNumber = doc.phoneNumber;
+    this.password = doc.password;
+    this.blocked = doc.blocked;
+    this.departmentId = doc.departmentId;
+    this.hospitalIds = doc.hospitalIds;
+    this.name = doc.name;
+    this.cnicOrPassportNo = doc.cnicOrPassportNo;
+    this.cnicOrPassportExpiry = doc.cnicOrPassportExpiry;
+    this.qualifications = doc.qualifications;
+    this.speciality = doc.speciality;
+    this.clinicName = doc.clinicName;
+    this.clinicExperience = doc.clinicExperience;
+    this.experience = doc.experience;
+    this.pmdcNumber = doc.pmdcNumber;
+    this.pmdcExpiry = doc.pmdcExpiry;
+    this.location = doc.location;
+    this.country = doc.country;
+    this.website = doc.website;
+    this.gender = doc.gender;
+    this.isMeditour = doc.isMeditour;
+    this.isRecommended=doc.isRecommended;
+    this.twitter = doc.twitter;
+    this.linkedIn = doc.linkedIn;
+    this.youtube = doc.youtube;
+    this.facebook = doc.facebook;
+    this.instagram = doc.instagram;
+    this.incomeTaxNo = doc.incomeTaxNo;
+    this.salesTaxNo = doc.salesTaxNo;
+    this.bankName = doc.bankName;
+    this.accountHolderName = doc.accountHolderName;
+    this.accountNumber = doc.accountNumber;
+    this.doctorImage = doc.doctorImage;
+    this.ntn=doc.ntn;
+    this.accountTitle=doc.accountTitle;
+    this.cnicImage = doc.cnicImage;
+    this.clinicLogo = doc.clinicLogo;
+    this.awardsAndAchievements = doc.awardsAndAchievements;
+    this.pmdcImage = doc.pmdcImage;
+    this.taxFileImage = doc.taxFileImage;
+    this.doctorType = doc.doctorType;
+    this.averageRating = doc.averageRating;
+    this.fcmToken = doc.fcmToken;
+    this.paidActivation = doc.paidActivation;
+    this.activationRequest = doc.activationRequest;
+    this.profilePercentage = doc.profilePercentage;
+    this.about = doc.about;
+    this.isNational = doc.isNational;
+  }
+}
+module.exports = doctorDTO;
